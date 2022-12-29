@@ -368,12 +368,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30px;
-  opacity: .4;
+  opacity: .9;
   transition-property: all;
   transition-duration: .3s;
 }
 #social-links li a:hover {
-  opacity: .9;
+  opacity: 1;
 }
 #social-links li a.instagram {
   background-image: url('/images/icon-instagram.svg');
@@ -407,7 +407,7 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .aligner-item form label{
@@ -417,9 +417,9 @@ body {
 }
 
 .aligner-item form input.textbox {
-  background: transparent;
+  background: rgba(255,255,255,1);
   border: 1px solid rgba(255,255,255,0.55);
-  color: inherit;
+  color: #000;
   display: inline-block;
   max-width: 360px;
   width: 60%;
