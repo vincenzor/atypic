@@ -324,7 +324,7 @@ body {
   font-size: 17px;
   font-weight: 300;
   color: rgba(255,255,255, .8);
-  font-family: "Avenir Light";
+  font-family: "Avenir Light", sans-serif;
 }
 
 #social-links {
@@ -380,62 +380,42 @@ body {
   max-width: 628px;
   margin-bottom: 50px;
 }
-
-.aligner-item h1 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1em;
-  font-weight: 700;
-}
-
-.aligner-item form label{
-  display: block;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.button {
+.aligner-item .button,
+.aligner-item form input.textbox {
+  -webkit-appearance:none;
+  -webkit-border-radius:0px;
+  margin:0;
+  padding:0;
+  border: 1px solid rgba(0,0,0,0.8);
   display: inline-block;
+  font-family: "Avenir Light", sans-serif;
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
-  text-transform: none;
-  letter-spacing: 0em;
-  border-radius: .5em;
-  padding: 0.8em 2em;
-  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  line-height: 1.45 !important;
+  background: rgba(0,0,0,0.8);
   text-decoration: none;
-  border: 1px solid #000;
   color: rgba(255,255,255,0.8);
   transition-property: border;
   transition-duration: .3s;
-  cursor: pointer;
-}
-.button:hover {
-  border-color: #666;
 }
 
-.aligner-item form input.textbox {
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid #000;
-  color: #fff;
-  display: inline-block;
+.aligner-item form input.button {
+  cursor: pointer;
+}
+.aligner-item form input.button:hover {
+}
+
+.aligner-item form input.textbox{
   max-width: 360px;
   width: 60%;
   min-width: 160px;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  letter-spacing: 0em;
-  border-radius: .5em;
-  padding: 0.8em;
-  transition-property: border;
-  transition-duration: .3s;
 }
-
 .aligner-item form input.textbox::placeholder {
   color: rgba(255,255,255,0.8);
+  font-style: italic;
 }
-
 .aligner-item form input.textbox:focus,
 .aligner-item form input.textbox:active {
   border-color: #666;
