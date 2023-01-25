@@ -433,7 +433,7 @@ body {
 
 @media (max-width: 420px) {
   html {
-    background-position: 70% center;
+    background-position: 50% bottom;
   }
   .aligner-item h1 {
     font-size: .8em;
