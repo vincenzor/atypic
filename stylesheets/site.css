@@ -311,7 +311,7 @@ body {
 }
 
 html {
-  background: url('/images/bg.jpg') no-repeat center center fixed;
+  background: url('/images/bg3.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -376,10 +376,19 @@ body {
 }
 .aligner-item img.logo {
   width: 100%;
-  min-width: 300px;
-  max-width: 628px;
-  margin-bottom: 50px;
+  min-width: 226px;
+  max-width: 400px;
 }
+
+.aligner-item h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 20px 0 100px 0;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
 .aligner-item .button,
 .aligner-item form input.textbox {
   -webkit-appearance:none;
@@ -425,5 +434,8 @@ body {
 @media (max-width: 420px) {
   html {
     background-position: 70% center;
+  }
+  .aligner-item h1 {
+    font-size: .8em;
   }
 }
