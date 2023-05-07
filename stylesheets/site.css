@@ -390,7 +390,7 @@ body {
   font-size: 28px;
   font-weight: 300;
   text-transform: uppercase;
-  line-height: 1em;
+  line-height: 1.3em;
   letter-spacing: 4.9px;
   word-spacing: 0.1em;
 }
@@ -398,6 +398,7 @@ body {
 .aligner-item h2 {
   font-size: 15px;
   margin-bottom: 100px;
+  line-height: 1.5em;
 }
 
 .aligner-item h1 strong,
