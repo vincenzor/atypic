@@ -313,7 +313,7 @@ body {
 }
 
 html {
-  background: url('/images/bg2.jpg') no-repeat center center fixed;
+  background: url('/images/bg3.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -348,12 +348,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30px;
-  opacity: .9;
+  opacity: .5;
   transition-property: all;
   transition-duration: .3s;
 }
 #social-links li a:hover {
-  opacity: 1;
+  opacity: .8;
 }
 #social-links li a.instagram {
   background-image: url('/images/icon-instagram.svg');
@@ -378,24 +378,31 @@ body {
 }
 .aligner-item img.logo {
   width: 70%;
-  min-width: 226px;
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 250px;
+  margin-bottom: 50px;
 }
 
-.aligner-item h1 {
-  color: #fff;
-  font-family: "open sans",Sans-serif;
-  font-size: 17px;
+.aligner-item h1,
+.aligner-item h2 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 28px;
   font-weight: 300;
   text-transform: uppercase;
-  line-height: 1.7em;
+  line-height: 1em;
   letter-spacing: 4.9px;
   word-spacing: 0.1em;
-  margin: 20px 0 100px 0;
 }
 
-.aligner-item h1 strong{
-  font-weight: 700;
+.aligner-item h2 {
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.aligner-item h1 strong,
+.aligner-item h2 strong{
+  font-weight: 700 ;
 }
 
 .aligner-item .button,
@@ -404,7 +411,7 @@ body {
   -webkit-border-radius:0px;
   margin:0;
   padding:0;
-  border: 1px solid rgba(0,0,0,0.8);
+  border: 1px solid rgba(255,255,255,0.75);
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -412,10 +419,10 @@ body {
   font-style: normal;
   padding: 15px;
   line-height: 1.45 !important;
-  background: rgba(0,0,0,0.8);
+  background: none;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
-  transition-property: border;
+  transition: all;
   transition-duration: .3s;
 }
 
@@ -423,6 +430,9 @@ body {
   cursor: pointer;
 }
 .aligner-item form input.button:hover {
+  background: #fff;
+  color: #000;
+  border-color: #000;
 }
 
 .aligner-item form input.textbox{
@@ -431,12 +441,12 @@ body {
   min-width: 160px;
 }
 .aligner-item form input.textbox::placeholder {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,.7);
   font-style: italic;
 }
 .aligner-item form input.textbox:focus,
 .aligner-item form input.textbox:active {
-  border-color: #666;
+  border-color: rgba(255,255,255,1);
   outline: none;
 }
 
